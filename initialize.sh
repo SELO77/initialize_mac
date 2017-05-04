@@ -40,3 +40,8 @@ git clone --depth=1 https://github.com/SELO77/bash-it.git ~/.bash_it
 
 ~/.bash_it/install.sh
 ## bash-it theme sexy
+
+
+## Copy git config files to Home
+cp git_setting/.gitignore ~/
+cp git_setting/.gitconfig ~/
