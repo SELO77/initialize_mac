@@ -21,3 +21,5 @@
 
 ## About node
 * node
+
+## Git config
