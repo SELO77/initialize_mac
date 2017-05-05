@@ -44,20 +44,27 @@ cp git_setting/.gitconfig ~/
 ## Install Node
 brew install node
 
+## Install MySQL
+brew install mysql
 
 # Install Python
 brew install pyenv
 brew install pyenv-virtualenv
+brew install autoenv
 
+## Pyenv setting
 echo '\n\n## Set Pyenv run environment'
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
 
+## Autoenv setting
+echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
+
 
 # Overide bash_it theme extended by Sexy theme
-echo 'export BASH_IT_THEME="Sexy"' >> ~/.bash_profile
+echo 'export BASH_IT_THEME="~/initialize_mac/bash_setting/sexy.theme.bash"' >> ~/.bash_profile
 
 
 # echo 'echo Hi \033[1;31m\]"$(whoami)"\033[0m\], Enjoy' >> ~/.bash_profile
