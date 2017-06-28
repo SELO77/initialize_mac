@@ -66,5 +66,7 @@ echo 'source /usr/local/opt/autoenv/activate.sh' >> ~/.bash_profile
 # Overide bash_it theme extended by Sexy theme
 echo 'export BASH_IT_THEME="~/initialize_mac/bash_setting/sexy.theme.bash"' >> ~/.bash_profile
 
+# Import selo's custom settings
+echo 'source ~/.initialize_selo_mac/bash_setting/shell_env.sh'
 
 # echo 'echo Hi \033[1;31m\]"$(whoami)"\033[0m\], Enjoy' >> ~/.bash_profile
