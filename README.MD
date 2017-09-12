@@ -23,3 +23,7 @@
 * node
 
 ## Git config
+
+## Custom Command
+* ls => "ls -aG"
+
